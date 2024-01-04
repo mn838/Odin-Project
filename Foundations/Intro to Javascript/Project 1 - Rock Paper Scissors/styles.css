@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-height: 100vh;
+  background-color: #1F305E ;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F305E ;
+  color: ivory ;
+  letter-spacing: 0.1rem;
+  font-size: 24px;
+  font-family: 'DotGothic16', sans-serif;
+}
+
+
+.game {
+  display: flex;
+  flex-direction: column;
+  background-color: #1F305E;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: auto;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Courier New', Courier, monospace;
+  color: ivory;
+  justify-content: center;
+  align-items: center;
+}
+
+.description h2 {
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.description p {
+  margin-top: 4px;
+  font-weight: bold;
+}
+
+.play-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: min(600px, 100vw);
+  flex-wrap: wrap;
+}
+
+.play {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.logo {
+  font-size: 80px;
+}
+
+.score {
+  font-size: 30px;
+  color: ivory;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  width: min(600px, 100vw);
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.select {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: min(600px, 100vw);
+}
+
+.rps {
+  font-size: 80px ;
+  cursor: pointer;
+  background-color: #1F305E;
+  border: none ;
+}
+
+.footer {
+  font-size: 18px;
+  color: ivory;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #1F305E;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: auto;
+}
