@@ -106,6 +106,7 @@ ul {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  margin-bottom: 32px;
 }
 
 .header-container2 {
@@ -155,5 +156,96 @@ ul {
 
 .container-3 {
   display: flex;
-  
+  background-color: #e5e7eb;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  width: min(800px, 100vw);
+}
+
+.person {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1f2937 ;
+  width: min(800px, 100vw);
+  text-align: right;
+  margin-top: -24px;
+}
+
+/* Container 4 CSS */
+
+.container-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.card {
+  background-color: #3882f6;
+  width: min(900px, 100vw);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 24px;
+}
+
+.container4-header {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+  margin-top: 24px;
+  margin-bottom: 4px;
+}
+
+.container4-info {
+  font-size: 14px;
+  color: #f9faf8;
+  opacity: 0.7;
+  margin-bottom: 24px;
+  margin-top: 0;
+}
+
+.container4-btn {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: 2px solid #f9faf8;
+  border-radius: 4px;
+  padding: 8px 24px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.container4-btn:hover {
+  background-color: #f9faf8;
+  color: #3882f6;
+}
+
+/* Footer CSS */
+
+.footer {
+  background-color: #1f2937;
+  text-align: center;
+  padding: 18px;
+  color: #f9faf8;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer p {
+  margin: 8px;
+  opacity: 0.7;
 }
