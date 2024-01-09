@@ -1,0 +1,76 @@
+body {
+  margin: 0 ;
+  padding: 0 ;
+  background-color: #181818;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  height: 48px ;
+  color: #ffffff ;
+  margin-bottom: 60px ;
+}
+
+.etch-a-sketch {
+  display: flex ;
+  flex-direction: row ;
+  justify-content: space-around ;
+  align-items: center ;
+  flex-grow: 1 ;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: min(100vw, 250px) ;
+  gap: 20px ;
+}
+
+button, input {
+  width: 100% ;
+  border: none ;
+  color: inherit ;
+  font-family: inherit ;
+  font-size: inherit ;
+  cursor: pointer ;
+  outline: none ;
+}
+
+button {
+  padding: 10px 20px ;
+  border: 1px solid #ffffff ;
+  border-radius: 8px ;
+}
+
+button.active {
+  background-color: #6f7375 ;
+  color: #ffffff ;
+}
+
+input[type="color"] {
+  padding: 0 ;
+  height: 80px ;
+  width: 160px ;
+  border: none ;
+}
+
+input[type='color']::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+input[type="color"]::-webkit-color-swatch {
+  border: none ;
+}
+
+.size-value {
+  font-size: 20px;
+  color: #ffffff;
+}
